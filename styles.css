@@ -1,0 +1,271 @@
+body
+{
+  margin-top: 0;
+}
+.image1
+{
+  position: absolute;
+  width: 1358px;
+  height: 625px;
+  left:0;
+  margin-top: 0;
+}
+
+.box1
+{
+  position: absolute;
+  left: 577px;
+  margin-top: 245px;
+}
+.top-container
+{
+  position:fixed;
+  height: 100px;
+  width: 1358px;
+  top: 0;
+  left: 0;
+  background-color: black;
+}
+.header1
+{
+  position: absolute;
+  left: 563px;
+  margin-top: 20px;
+  color: white;
+  font-size: 3rem;
+  letter-spacing: 5px;
+}
+.search
+{
+  position: absolute;
+  top: 30px;
+  left: 190px;
+}
+.search input
+{
+  height: 20px;
+  width: 30px;
+  -webkit-transition: width 0.4s ease-in-out;
+  transition: width 0.5s ease-in-out;
+}
+.search input:focus
+{
+  width: 300px;
+}
+.content
+{
+  position:absolute;
+  top: 20px;
+  left: 900px;
+}
+.content a{
+  color: white;
+  text-decoration: none;
+  padding: 5px;
+}
+.content a:hover
+{
+  background:white;
+  color: black;
+}
+.register
+{
+position: absolute;
+top: 20px;
+left: 1050px;
+}
+.register a{
+  color: white;
+  text-decoration: none;
+  padding: 5px;
+}
+.register a:hover
+{
+  background:white;
+  color: black;
+}
+.in
+{
+  position: absolute;
+  top: 20px;
+  left: 20px;
+}
+.in a{
+  color: white;
+  text-decoration: none;
+}
+.out{
+  position: absolute;
+  top: 20px;
+  left:70px;
+}
+.out a{
+  color: white;
+  text-decoration: none;
+}
+ul
+{
+  list-style: none;
+  height: 100%;
+  width: 150px;
+  position: fixed;
+  top: 84px; left:0;
+  background: black;
+}
+ul li{
+  margin: 5px;
+  padding-left: 0;
+  padding-top: 15px;
+  margin-top: 70px;
+}
+ul li a{
+  color: white;
+  text-decoration: none;
+  font-size: 18px;
+  padding: 5px;
+}
+ul li a:hover
+{
+  background:white;
+  color: black;
+}
+ul .active
+{
+  background: white;
+  color: black;
+}
+section
+{
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-transform: uppercase;
+}
+.main-container
+{
+  position: relative;
+  background-color: black;
+  width: 1358px;
+  height: 1000px;
+  scroll-behavior: smooth;
+}
+.header2
+{
+  position: absolute;
+  top: 20px;
+  left: 50px;
+  color: white;
+}
+.ved1
+{
+  position: absolute;
+  top: 80px;
+  left: 50px;
+}
+.header3
+{
+  position: absolute;
+  top: 20px;
+  left: 750px;
+  color: white;
+}
+.ved2
+{
+  position: absolute;
+  top: 80px;
+  left: 750px;
+}
+.header4
+{
+  position: absolute;
+  top: 450px;
+  left: 50px;
+  color: white;
+}
+.ved3
+{
+  position: absolute;
+  top: 530px;
+  left: 50px;
+}
+.header5
+{
+  position: absolute;
+  top: 450px;
+  left: 750px;
+  color: white;
+}
+.ved4
+{
+  position: absolute;
+  top: 530px;
+  left: 750px;
+}
+.copy
+{
+  position: absolute;
+  color: white;
+  top: 20px;
+  left: 1200px;
+}
+.co
+{
+  position: absolute;
+  left: 630px;
+  text-decoration: underline;
+  color: white;
+}
+.reg{
+  position: relative;
+  width: 1358px;
+  height: 625px;
+  background-color: black;
+}
+.contact
+{
+  position: absolute;left: 540px;
+  color: white;
+}
+.contact button
+{
+  width: 50px;
+  background-color: white;
+  color: black;
+}
+#About
+{
+  background-color: #BC6FF1;
+}
+#Manga
+{
+  background-color: #FF7777;
+}
+#Announcement
+{
+  background-color: #B5DEFF;
+}
+#Get-Help{
+  background-color: #6ECB63;
+}
+input[type=text], input[type=password] {
+        width: 90%;
+        margin: 5px 0;
+        padding: 5px 8px;
+        display: inline-block;
+
+    }
+    button {
+           background-color:#1A1C20;
+           width: 100%;
+            color: white;
+            padding: 5px;
+            margin: 10px 0px;
+            border: none;
+            cursor: pointer;
+             }
+    button:hover
+    {
+      opacity: 0.7;
+    }
